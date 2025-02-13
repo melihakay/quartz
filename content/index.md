@@ -6,6 +6,9 @@ aliases:
 tags: 
 date:
 ---
+>[!warning] Construction Site
+> This is the initial test version of the website.
+> 
 # About me
 
 I'm a [Statistics](https://stat.metu.edu.tr/) student at [[Middle East Technical University]] who genuinely enjoys solving hard problems combining [[software]], [[robotics]] and [[AI]].
