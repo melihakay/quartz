@@ -1,4 +1,4 @@
-![[Pasted image 20250213200232.png]]
+![[data_logger_table.png]]
 Table from [[FSG25_Competition_Handbook_v1.0.pdf]]
 ## Messages 
 

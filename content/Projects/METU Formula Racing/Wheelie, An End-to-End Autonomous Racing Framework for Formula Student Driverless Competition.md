@@ -2,7 +2,8 @@
 title: "Wheelie: An End-to-End Autonomous Racing Framework for Formula Student Driverless Competition"
 draft: false
 description: 
-aliases: 
+aliases:
+  - Wheelie
 tags: 
 date:
 ---

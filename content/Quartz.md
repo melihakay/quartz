@@ -19,4 +19,3 @@ Quartz is a static website generator for markdown files. I serve my website usin
 - [Ellie's Notes](https://ellie.wtf/)
 - [Aster's Notebook](https://notes.asterhu.com/), related [[Statistics]]
 - [Numerical Linear Algebra](https://ericdarve.github.io/NLA/)
-- 

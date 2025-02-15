@@ -1,3 +1,5 @@
->[!warning] Draft page
+Formula Student, known as one of the world's most established engineering competitions, was first organized in the USA in 1988. The main purpose of the competition is to provide qualified personnel for the automotive and motorsports industry. 
 
-Competition has both normal and [[Formula Student Driverless]] cups.
+The competition allows students to design and build a Formula-style vehicle and compete against schools from around the world. Due to its popularity and the experience it provides, it has spread worldwide and become one of the prestigious engineering competitions. Students are responsible for every aspect of the vehicle, from designing to manufacturing and testing a car that will compete in a graded competition. 
+
+Each competition consists of static and dynamic events that test the vehicle's performance and question students' knowledge about vehicle design, manufacturability, cost, and marketing.
