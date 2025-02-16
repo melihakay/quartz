@@ -1,9 +1,18 @@
->[!todo]
->FSG Tech Inspection:  [[FSG_Tech_Inspection_24.pdf#page=32]] 
+---
+title: System Critical Signal
+draft: false
+description: 
+aliases: 
+tags: 
+date:
+---
+
+>[!info] SCS in Autonomous Systems 
+>[[FSG_Tech_Inspection_24.pdf#page=32|FSG24 Tech Inspection Workshop]] 
 >If an AS is implemented, all its signals must be monitored accordingly (T 11.9 + T 14.5.1)
-
-
-The ASB signals and other signals of the Autonomous System are considered to be System Critical Signals (SCSs), see T 11.9.1, and therefore require some additional measures to be taken that are also discussed in this document. [[FSG25_AS_Beginners_Guide_v1.0.pdf]]
+>
+>[[FSG25_AS_Beginners_Guide_v1.0.pdf|FSG25 AS Beginner's Guide]]
+>The ASB signals and other signals of the Autonomous System are considered to be System Critical Signals (SCSs), see T 11.9.1, and therefore require some additional measures to be taken that are also discussed in this document. 
 
 >[!todo] Checking SCS for AS
 >USB connection is used between ECU and ACU

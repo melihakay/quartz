@@ -2,6 +2,7 @@ Deciding to participate in Formula Student might sound terrifying. Here you can 
 
 Note that his is the checklist have been prepared for the [[FS Germany 2025]].
 
+# Checklist
 > [!todo] Things to be checked
 > - [ ] [[ASB]]
 > - [ ] [[AMI]]
@@ -15,3 +16,5 @@ Note that his is the checklist have been prepared for the [[FS Germany 2025]].
 > - [ ] [[SDC]]
 > - [ ] [[Sensors]]
 
+# Hot Topics
+- Who will read and evaluate the [[ASB]] sensory data?

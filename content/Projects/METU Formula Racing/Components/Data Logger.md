@@ -1,5 +1,13 @@
+---
+title: 
+draft: false
+description: 
+aliases: 
+tags: 
+date:
+---
 ![[data_logger_table.png]]
-Table from [[FSG25_Competition_Handbook_v1.0.pdf]]
+Table from [[FSG25_Competition_Handbook_v1.0.pdf|FSG25 Competition Handbook]]
 ## Messages 
 
 ### 0x500
