@@ -1,0 +1,3 @@
+A project developed by researchers at [[METU ROMER - Center for Robotics and AI]]. I have contributed to the project for 4 months in the time span of Nov'24 to Feb'25. 
+
+At that time project aimed to develop a high performance swarm robotics simulator for research purposes. I have researched on different simulation solutions in terms of performance and scalability. At the end we have decided to use [[Isaac Sim]]. 
