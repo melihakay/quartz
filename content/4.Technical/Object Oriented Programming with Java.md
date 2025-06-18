@@ -154,7 +154,100 @@ You can only extend one class at a time (Java supports single inheritance)
 ## Polymorphism
 
 - Polymorphism is the ability of objects of different classes to respond to the same method call in different ways. One interface, multiple implementations.
-- 
+
+![[polymorphism_exaple_java.png]]
+
+### Override
+
+The method must be defined in both
+superclass and subclass.
+§ The method signature (name + parameters)
+must be identical.
+§ The method in the subclass must have
+equal or more accessible access modifier.
+§ Only inherited methods can be overridden
+§ The return type must be the same or a
+subclass (covariant) of the method in the
+superclass.
+
+
+### Overload 
+Overloading is resolved at compile time, so it's
+also called compile-time polymorphism or
+static binding.
+
+![[override_java.png]]
+
+### Differences
+
+Method Overloading:
+• Occurs within the same class or in subclasses.
+• The method name is the same, but the parameters must
+differ (either the number of parameters or their types).
+• The return type can be the same or different.
+• Overloading is resolved at compile time (static
+polymorphism).
+• Method Overriding:
+• Occurs between a superclass and a subclass.
+• The method name and the parameter list must be the same
+in both the superclass and subclass.
+• The return type must also be the same or a subtype
+(covariant return type).
+• Overriding is resolved at runtime (dynamic polymorphism
+
+![[overload_vs_override.png]]
+
+## Abstract Classes
+
+An abstract class in Java is a class that cannot
+be instantiated, but can be extended by other
+classes.
+§ It is used as a base class to define a common
+interface and optionally some common
+behavior for its subclasses.
+
+Declared using the abstract keyword.
+§ May contain abstract methods (methods
+without a body) and concrete methods (with
+implementation).
+§ Can have constructors, fields, and static blocks.
+§ Cannot be instantiated directly.
+§ Used when you want to provide a common
+base and allow subclasses to implement
+specific behavior.
+
+![[Pasted image 20250618131429.png]]
+
+## Interfaces
+
+An interface in Java is a reference type, similar
+to a class, that can contain only constants,
+method signatures, default methods, static
+methods, and nested types.
+§ It cannot contain instance fields or
+constructors.
+§ Interfaces define abstract methods that must
+be implemented by any class that implements
+the interface.
+
+![[Pasted image 20250618131544.png]]
+
+![[Pasted image 20250618131554.png]]
+
+Can a Class Implement Multiple Interfaces?
+• Yes! In Java, a class can implement multiple
+interfaces.
+• This is one of the key advantages of using
+interfaces, as Java does not support multiple
+inheritance of classes but supports multiple
+inheritance of interfaces.
+
+![[Pasted image 20250618131625.png]]
+
+![[Pasted image 20250618131653.png]]
+
+
+
 ## UML
 
 ### Use Case
