@@ -38,14 +38,9 @@ boolean isStudent = true; //logical
 // true or false Boolean type
 ```
 
-- In Java, a complex type refers to any data type
-that is not a primitive type.
-- These types are also known as reference
-types.
-(They store references (memory addresses)
-rather than the actual value. )
-- They are object-based and typically contain
-multiple pieces of data or functions together.
+- In Java, a complex type refers to any data type that is not a primitive type.
+- These types are also known as reference types. (They store references (memory addresses) rather than the actual value. )
+- They are object-based and typically contain multiple pieces of data or functions together.
 
 ```java
  // In Java, the runtime always starts with the
@@ -58,8 +53,7 @@ public static void main(String[] args)
 	//when the program starts.
 ```
 
-- Static variables belong to the class, not to any
-object.
+- Static variables belong to the class, not to any object.
 - Shared across all instances of the class
 
 ![[setter.png]]
@@ -86,37 +80,30 @@ Throws tells compiler that it doesn't raise but passes the exception.
 ![[java_error_throws.png]]
 #### Checked
 
- IOException
-§ FileNotFoundException
-§ SQLException
-§ ParseException
-§ ClassNotFoundException
+- IOException
+- FileNotFoundException
+* SQLException
+* ParseException
+- ClassNotFoundException
 
 #### Unchecked
 
-NullPointerException
-§ ArrayIndexOutOfBoundsException
-§ ArithmeticException
-§ IllegalArgumentException
-§ NumberFormatException
+- NullPointerException
+- ArrayIndexOutOfBoundsException
+- ArithmeticException
+- IllegalArgumentException
+- NumberFormatException
 
 
 # OOP
 
-- Reusability - Code can be reused through inheritance,
-reducing redundancy.
-- Encapsulation - Data is protected and only accessible
-through defined methods.
-- Abstraction - Hides complex implementation, showing
-only necessary details.
-- Modularity - Code is organized into separate objects,
-making it easier to maintain.
-- Flexibility - Polymorphism allows objects to be used in
-different ways.
-- Scalability - Easier to extend and modify programs
-without affecting existing code.
-- Security - Restricts unauthorized access to data through
-encapsulation.
+- Reusability - Code can be reused through inheritance, reducing redundancy.
+- Encapsulation - Data is protected and only accessible through defined methods.
+- Abstraction - Hides complex implementation, showing only necessary details.
+- Modularity - Code is organized into separate objects, making it easier to maintain.
+- Flexibility - Polymorphism allows objects to be used in different ways.
+- Scalability - Easier to extend and modify programs without affecting existing code.
+- Security - Restricts unauthorized access to data through encapsulation.
 
 ![[fout_pillars_of_oop.png]]
 
@@ -159,22 +146,16 @@ You can only extend one class at a time (Java supports single inheritance)
 
 ### Override
 
-The method must be defined in both
-superclass and subclass.
-§ The method signature (name + parameters)
-must be identical.
-§ The method in the subclass must have
-equal or more accessible access modifier.
-§ Only inherited methods can be overridden
-§ The return type must be the same or a
-subclass (covariant) of the method in the
-superclass.
+- The method must be defined in both superclass and subclass.
+- The method signature (name + parameters) must be identical.
+- The method in the subclass must have equal or more accessible access modifier.
+- Only inherited methods can be overridden
+- The return type must be the same or a subclass (covariant) of the method in the superclass.
 
 
 ### Overload 
-Overloading is resolved at compile time, so it's
-also called compile-time polymorphism or
-static binding.
+
+Overloading is resolved at compile time, so it's also called compile-time polymorphism or static binding.
 
 ![[override_java.png]]
 
@@ -182,65 +163,50 @@ static binding.
 
 Method Overloading:
 • Occurs within the same class or in subclasses.
-• The method name is the same, but the parameters must
-differ (either the number of parameters or their types).
+• The method name is the same, but the parameters must differ (either the number of parameters or their types).
 • The return type can be the same or different.
-• Overloading is resolved at compile time (static
-polymorphism).
-• Method Overriding:
+• Overloading is resolved at compile time (static polymorphism).
+
+Method Overriding:
 • Occurs between a superclass and a subclass.
-• The method name and the parameter list must be the same
-in both the superclass and subclass.
-• The return type must also be the same or a subtype
-(covariant return type).
+• The method name and the parameter list must be the same in both the superclass and subclass.
+• The return type must also be the same or a subtype (covariant return type).
 • Overriding is resolved at runtime (dynamic polymorphism
 
 ![[overload_vs_override.png]]
 
 ## Abstract Classes
 
-An abstract class in Java is a class that cannot
-be instantiated, but can be extended by other
-classes.
-§ It is used as a base class to define a common
-interface and optionally some common
-behavior for its subclasses.
+An abstract class in Java is a class that cannot be instantiated, but can be extended by other classes.
 
-Declared using the abstract keyword.
-§ May contain abstract methods (methods
-without a body) and concrete methods (with
+- It is used as a base class to define a common interface and optionally some common
+behavior for its subclasses.
+- Declared using the abstract keyword.
+- May contain abstract methods (methods without a body) and concrete methods (with
 implementation).
-§ Can have constructors, fields, and static blocks.
-§ Cannot be instantiated directly.
-§ Used when you want to provide a common
-base and allow subclasses to implement
-specific behavior.
+- Can have constructors, fields, and static blocks.
+- Cannot be instantiated directly.
+- Used when you want to provide a common base and allow subclasses to implement specific behavior.
 
 ![[Pasted image 20250618131429.png]]
 
 ## Interfaces
 
-An interface in Java is a reference type, similar
-to a class, that can contain only constants,
-method signatures, default methods, static
-methods, and nested types.
-§ It cannot contain instance fields or
-constructors.
-§ Interfaces define abstract methods that must
-be implemented by any class that implements
-the interface.
+An interface in Java is a reference type, similar to a class, that can contain only constants,
+method signatures, default methods, static methods, and nested types.
+
+- It cannot contain instance fields or constructors.
+- Interfaces define abstract methods that must be implemented by any class that implements the interface.
 
 ![[Pasted image 20250618131544.png]]
 
 ![[Pasted image 20250618131554.png]]
 
 Can a Class Implement Multiple Interfaces?
-• Yes! In Java, a class can implement multiple
-interfaces.
-• This is one of the key advantages of using
-interfaces, as Java does not support multiple
-inheritance of classes but supports multiple
-inheritance of interfaces.
+
+• Yes! In Java, a class can implement multiple interfaces.
+• This is one of the key advantages of using interfaces, as Java does not support multiple
+inheritance of classes but supports multiple inheritance of interfaces.
 
 ![[Pasted image 20250618131625.png]]
 
