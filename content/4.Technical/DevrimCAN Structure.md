@@ -4,7 +4,7 @@
 ## CanMsg
 
 ```cpp
-struct CanMsg {
+struct devrimCanMsg {
 	uint32_t id
 	uint8_t length
 	bool is_extended
@@ -16,8 +16,10 @@ struct CanMsg {
 
 ```cpp
 struct ControlCommand{
-	torque;
-	steering;
+	float torque; // -1 to 1
+	float brake; // -1 to 1
+	float wheel_angle; // rad
+	float wheel_angle_rate // rad/s
 }
 ```
 
