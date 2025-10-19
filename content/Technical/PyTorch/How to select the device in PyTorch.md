@@ -1,4 +1,5 @@
-Usse the following to select the device that [[PyTorch]] will use:
+Use the following to select the device that [[PyTorch]] will use:
+
 ```python
 import torch
 

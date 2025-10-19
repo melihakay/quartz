@@ -9,6 +9,9 @@ date:
 ---
 So you wonder what (or more precisely who) is **Wheelie**? It is our mascot at [[METU Formula Racing]]. As driverless team our aim is to let the Wheelie drive car all by itself. 
 
+>[!info] Current development
+>Check out [[Wheelie Roadmap]] to checkout the current progress on the project.
+
 Here you can observe latest version of our algorithms running on [[Formula Student Driverless Simulator]]:
 
 ![](https://www.youtube.com/embed/qIXuZgMRJ7I?si=OmRIHJE4Hzxabt9B)

@@ -39,4 +39,3 @@ This website contains my publicly shared notes, thus might be a bit confusing to
 | 2015 - 2019 | Ankara Atatürk Anadolu Highschool (AAAL) |
 | 2019 - 2022 | Physics BSc. at [[METU]] - Dropout       |
 | 2022 - 2026 | Statistics BSc. at [[METU]] - Lovin' it  |
-
