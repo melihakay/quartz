@@ -15,3 +15,4 @@ date:
 >$$
 >It is usually denoted as $A^{-}$. If $A$ is [[Invertibility of a matrix|invertible]], then $A^{-}$ is unique and equal to $A^{-1}$.
 
+It is also known as pseudo-[[Inverse of a matrix|inverse]].
