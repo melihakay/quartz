@@ -8,9 +8,10 @@ tags:
   - linear-algebra
 date:
 ---
-# Definition
+>[!info] Definition
+>Adjoint matrix of a given [[Complex Numbers|complex]] matrix A is
+>$$
+>A^{\star}=\bar{A}^T
+>$$
+>where $\bar{A}$ is the conjugate of 
 
-$$
-adj(A) = C^T
-$$
-where $C$ is the [[Cofactor Matrix]] of $A$.
