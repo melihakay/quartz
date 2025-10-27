@@ -3,6 +3,7 @@ title:
 draft: false
 description:
 aliases:
+  - matrix
 tags:
   - linear-algebra
   - mathematics
@@ -17,3 +18,4 @@ date:
 $$
 (A^T)_{ij} = A_{ji}
 $$
+

@@ -9,6 +9,7 @@ tags:
   - mathematics
 date:
 ---
+
 >[!info] Definition
 >A matrix $A$ is said to be singular if it has $\det A = 0$. This means that 
 >- $A$ is not [[Invertibility of a matrix|invertible]]

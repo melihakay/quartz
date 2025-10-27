@@ -8,6 +8,7 @@ tags:
   - mathematics
 date:
 ---
+
 >[!info] Definition 
 >We say that a [[Square Matrix|square matrix]] $A$ is a skew-symmetric matrix if $A = -A^T$.
 

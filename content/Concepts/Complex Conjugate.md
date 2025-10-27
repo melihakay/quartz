@@ -7,6 +7,7 @@ tags:
   - mathematics
 date:
 ---
+
 >[!info] Definition
 >Let $z \in C$, where $C$ is the set of [[Complex Numbers]]. Then the complex conjugate of $z$ is 
 >$$
@@ -15,4 +16,3 @@ date:
 >$$
 >\bar{z} = a - bi
 >$$
-

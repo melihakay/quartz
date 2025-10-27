@@ -8,6 +8,7 @@ tags:
   - linear-algebra
 date:
 ---
+
 >[!info] Definition
 >Let $A\in R^{n\times n}$ or $\in C^{n\times n}$. Then the determinant of $A$, denoted by $\det A$ can be computed on the first row by:
 >$$

@@ -8,6 +8,7 @@ tags:
   - mathematics
 date:
 ---
+
 >[!info] Definition
 >Generalized inverse, or g-inverse, of a matrix $A$ is given by:
 >$$
