@@ -21,7 +21,7 @@ Dimensional reduction:
 
 Some distances:
 
-- Euclidian
+- Euclidean
 - Manhattan
 - Statistical
 
