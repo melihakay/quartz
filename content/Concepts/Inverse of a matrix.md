@@ -8,6 +8,7 @@ tags:
   - mathematics
 date:
 ---
+
 >[!info] Definition
 >We say that $B$ is an inverse of $A$ if 
 >$$
