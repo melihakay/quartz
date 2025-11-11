@@ -18,6 +18,3 @@ date:
 >\det A = \sum_{j=1}^n (-1)^{j-1} a_{ij}M_{ij}
 >$$
 >where $M_{ij}$ is the [[Minor of a Matrix|minor]].
-
-
-

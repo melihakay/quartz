@@ -29,7 +29,7 @@ $$
 \bar{x_{p}}
 \end{bmatrix}_{p \times 1}
 $$
-where each $x_{i}$ is another random variable. [[Expected Value]].
+where each $x_{i}$ is another random variable. [[Expected value]].
 $$
 \bar{x_{i}} = \frac{1}{n}\sum_{j=1}^n x_{ji} \text{ for } i=1,2,\dots,p
 $$

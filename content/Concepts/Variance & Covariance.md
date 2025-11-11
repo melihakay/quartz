@@ -126,7 +126,7 @@ Let $C = \begin{bmatrix}a & b\end{bmatrix}$. Then the linear combination $aX_{1}
 $$
 CX = aX_{1} + bX_{2}
 $$
-Then the [[Expected Value]] becomes
+Then the [[Expected value]] becomes
 $$
 E[CX] = CE[X] = C\mu _{X}
 $$

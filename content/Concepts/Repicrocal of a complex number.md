@@ -7,6 +7,7 @@ tags:
   - mathematics
 date:
 ---
+
 >[!info] Definition
 >Let $z\in C$ st. $z\neq_{0}$. Then, 
 >$$

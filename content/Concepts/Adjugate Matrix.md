@@ -9,6 +9,7 @@ tags:
   - linear-algebra
 date:
 ---
+
 >[!info] Definition
 >
 >$$

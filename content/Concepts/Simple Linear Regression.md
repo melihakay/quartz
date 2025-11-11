@@ -32,7 +32,7 @@ y = \beta_{0} + \beta_{1}x + \varepsilon
 $$
 One can interpret $\beta_{0}$ as intercept and $\beta_{1}$ as the slope of the fitted line.
 
-At the time we construct our model, we do not know parameters $\beta_{0}$ and $\beta_{1}$ and our aim is to estimate these from the data using [[Least Squares Estimation]].
+At the time we construct our model, we do not know parameters $\beta_{0}$ and $\beta_{1}$ and our aim is to estimate these from the data using [[Least squares estimation]].
 
 # Model Analysis
 
@@ -132,7 +132,7 @@ Here $n-2$ is the degrees of freedom.
 
 We have estimated $\beta_{0}$, $\beta_{1}$ and $\sigma^2$ using random samples from the data. Thus, they are random variables too.
 
-Since the [[Least Squares Estimation|LSE]] is [[Best Linear Unbiased Estimator|BLUE]] we have:
+Since the [[Least squares estimation|LSE]] is [[Best Linear Unbiased Estimator|BLUE]] we have:
 
 #### $\beta_{0}$
 1. $E[\beta_{0}] = \beta_{0}$
