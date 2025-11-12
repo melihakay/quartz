@@ -26,5 +26,3 @@ Av &= \lambda v \\
 A \bar{v} &= \bar{\lambda} \bar{v}
 \end{align*}
 $$
-
-
