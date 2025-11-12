@@ -13,6 +13,8 @@ date:
 
 >[!danger] Matrix multiplication is NOT COMMUTATIVE.
 
+- $A(B+C) = AB + AC$
+
 ## Transpose of a matrix
 
 $$

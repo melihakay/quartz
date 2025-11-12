@@ -7,6 +7,7 @@ tags:
   - mathematics
 date:
 ---
+
 # Definition 
 
 $C$, set of complex numbers is the set of numbers in the form of $a +bi$.
