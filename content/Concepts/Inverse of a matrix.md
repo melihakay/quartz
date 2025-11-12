@@ -28,3 +28,10 @@ $$
 A^{-1} = \frac{1}{\det{A}}adj(A)
 $$
 where $adj(A)$ is [[Adjugate Matrix]] of $A$.
+
+>[!info] Gauss-Jordan method
+Another approach to invert a matrix is to use [[Gaussian elimination]]
+>
+>1. Obtain $[A|I]$
+>2. Apply elimination until you reach $[I|A^{-1}]$. 
+
