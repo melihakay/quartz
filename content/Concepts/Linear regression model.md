@@ -12,7 +12,7 @@ date:
 
 Linear regression is a model that estimates the relationship (effect) between a **scalar** response and one or more independent variables. 
 
-In the case of just one independent variable (regressor) we call such a model [[Simple Linear Regression]]. If there are more than one regressor then we call the model [[Multiple Linear Regression]]. This term should not be confused with [[Multivariate Linear Regression]]
+In the case of just one independent variable (regressor) we call such a model [[Simple linear regression]]. If there are more than one regressor then we call the model [[Multiple linear regression]]. This term should not be confused with [[Multivariate Linear Regression]]
 
 If the $Y$ is not a scalar, rather a vector then we deal with [[General Linear Model]]
 

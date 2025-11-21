@@ -162,6 +162,51 @@ $$
 $$
 T_{i} =\frac{ \hat{\beta_{i}} - \bar{\beta_{i}}}{SE(\beta_{i})} \sim t_{(n-2)}
 $$
+
+### Test of hypothesis
+
+In the test of hypothesis for each $\beta_{i}$ we use their $t$ statistics. 
+
+$$
+\begin{align*}
+\hat{\beta_{i0}} &\text{ , } i \in \{0,1\} \\
+H_{0i} &: \beta_{i} = \beta_{i0} \\
+H_{1i} &: \beta_{i} \neq \beta_{i0} \text{ or } \beta_{i} > \beta_{i0} \text{ or } \beta_{i} < \beta_{i0}
+\end{align*}
+$$
+
+our test statistic is
+
+$$
+T^* = \frac{\hat{\beta_{i}}-\beta_{i0}}{SE(\hat{\beta_{j}})}
+\sim t_{(n-2)} \text{ , } n-2= \text{degrees of freedom of } \varepsilon
+$$
+decision rule is 
+
+$$
+\text{Reject } H_{0} \text{ when } |T_{i}| \geq t_{n-2}
+$$
+Rejection means that $\beta_{i}$ differ from $H_{i0}$ significantly.
+
+### Test for significance
+
+We use same test with [[Simple linear regression#Test of hypothesis|test of hypothesis]] bu instead of using $\beta_{i0}$ we say that 
+
+$$
+\begin{align*}
+\hat{\beta_{i0}} &\text{ , } i \in \{0,1\} \\
+H_{0i} &: \beta_{i} = 0 \\
+H_{1i} &: \beta_{i} \neq 0
+\end{align*}
+$$
+
+### Properties of LSE
+
+1. LSE is linear on $y_{i}$
+2. Unbiased, $E(\hat{\beta}_{i}) = \beta_{i}$
+3. Best st. $V(\hat{\beta}_{i})$ is minimum for each $i$
+
+
 ## Goodness-of-fit
 
 >[!question]
@@ -211,7 +256,7 @@ We construct our [[Analysis of Variances|ANOVA]] table:
 | Total      | $n-1$ | $SST$          |                       |                   |
 Thus one can deduct that:
 $$
-F^*=\frac{SSR}{
+F^*=\frac{\frac{SSR}{1}}{
 \frac{SSE}{n-2}
 }
 =
@@ -231,4 +276,14 @@ Usual $\alpha$ (significance level) values are:
 > - **Reject** $H_{0}$ if $F^* \geq cv$. Thus conclude that $x$ has statistically significant effect on $y$ at $\alpha$ significance level.
 > - **Fail to reject** $H_{0}$ if $F^* < cv$. Therefore say that there is not enough evidence to state the effect of $x$ on $y$.
 
-## Test of hypothesis
+# R
+
+We use `lm()` function to create a linear model.
+
+```r
+y <- c(...)
+x <- c(...)
+model <- lm(y~x)
+modelSummary <- summary(model)
+print(modelSummary) 
+```
